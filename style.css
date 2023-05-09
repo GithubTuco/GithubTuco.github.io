@@ -330,6 +330,15 @@ display: flex;
     color: var(--second-bg-color);
 }
 
+/* thank you page */
+.thank-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0 3rem;
+}
+
+
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
     html {
