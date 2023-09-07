@@ -1,6 +1,5 @@
 # Portfolio - Serkan Öztürk
 
-![Portfolio Logo](images/Öztürk__Serkan.png)
 
 ## Über das Projekt
 
