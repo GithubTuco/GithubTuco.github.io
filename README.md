@@ -1,6 +1,5 @@
 # Portfolio - Serkan Öztürk
 
-
 ## Über das Projekt
 
 Dies ist das Portfolio von Serkan Öztürk, einem aufstrebenden Softwareentwickler mit Sitz in Deutschland. In diesem Portfolio finden Sie Informationen über seine Softwareprojekte und Fähigkeiten.
