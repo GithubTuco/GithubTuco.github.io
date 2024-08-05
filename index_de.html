@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Serkan Öztürk</title>
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- benutzerdefiniertes CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Header-Design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Startseite</a>
+            <a href="#about">Über mich</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+
+        <div class="flag-container">
+            <a href="index_de.html"><img src="images/german-flag.jpg" alt="Deutsch" ></a>
+            <a href="index.html"><img src="images/english-flag.png" alt="English" ></a>
+        </div>
+
+    </header>
+
+    <!--Home-Bereich Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hallo, ich bin</h3>
+            <h1>Serkan Öztürk</h1>
+            <h3>Und ich bin ein <span class="multiple-text"></span></h3>
+            <p>Hallo und willkommen in meinem Portfolio als Softwareentwickler!
+                Ich bin ein Junior-Entwickler mit einer Leidenschaft für die Schaffung innovativer Softwarelösungen.
+                Ich habe vielleicht noch nicht viel Erfahrung, aber ich bin bestrebt, die Projekte zu präsentieren, an denen ich bisher gearbeitet habe.
+                <br><br>In diesem Portfolio finden Sie Beispiele meiner Arbeit, einschließlich Projekten, die meine wachsende Expertise in [C#/HTML/CSS/JavaScript] zeigen.<br>
+                <br>Ich freue mich darauf, meinen Weg als Softwareentwickler fortzusetzen und von jeder Gelegenheit zu lernen, die sich mir bietet. <br><br>
+                Vielen Dank, dass Sie sich die Zeit nehmen, mein Portfolio zu besuchen!</p><br><br>
+            <a href="#about" class="btn">Weiterlesen</a>
+        </div>
+        <div class="home-img">
+            <img src="images/Öztürk__Serkan.png" alt="">
+        </div>
+    </section>
+
+    <!--Über mich Bereich Design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/Öztürk__Serkan.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Über <span>mich</span></h2>
+            <h3>Softwareentwickler</h3>
+            <p>Ich bin ein neuer Softwareentwickler mit Sitz in Deutschland und habe meine Ausbildung im Sommer 2022 abgeschlossen.
+                <br><br>Obwohl ich noch am Anfang meiner Karriere stehe, bin ich begeistert davon, meiner Leidenschaft für Softwareentwicklung nachzugehen und meine Fähigkeiten ständig zu verbessern.
+                <br><br>Es ist mir wichtig, auf dem neuesten Stand der Branche zu bleiben, und ich bin gespannt darauf, neue Möglichkeiten zu erkunden und mich selbst herauszufordern.
+                <br>Mit Hingabe und einem Engagement für Exzellenz freue ich mich darauf, als Entwickler zu wachsen und einen bedeutenden Beitrag im Bereich zu leisten.</p>
+                <a href="#portfolio" class="btn">Portfolio ansehen</a>
+        </div>
+    </section>
+
+    <!--Portfolio-Bereich Design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Neueste <span>Projekte</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/AstroMarket.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Online-Shop</h4>
+                    <p>Erleben Sie ein spirituelles Einkaufserlebnis mit unserem Online-Shop, der Produkte zur Verbesserung Ihrer spirituellen Reise anbietet.</p>
+                    <a href="https://github.com/GithubTuco/AstroMarket"><i class='bx bx-link-external'></i></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Caclulator.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Digitale Rechner</h4>
+                    <p>Lassen Sie sich nicht von komplexen Berechnungen überwältigen - vereinfachen Sie Ihr Leben mit unserer Rechner-App, dem perfekten Werkzeug für all Ihre mathematischen Bedürfnisse.</p>
+                    <a onclick="window.open('https://github.com/GithubTuco/Calculator', '_blank')"><i class='bx bx-link-external'></i></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Calorie-Calc.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Kalorienrechner</h4>
+                    <p>Beginnen Sie Ihre Fitnessreise mit unserem Kalorienrechner, dem perfekten Werkzeug für einen gesünderen Lebensstil.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/ToDo-List.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>To-Do-Liste</h4>
+                    <p>Verwalten Sie mühelos Ihre To-Do-Liste mit dieser benutzerfreundlichen App, die Ihre täglichen Aufgaben vereinfacht.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Video-Game.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Videospiel</h4>
+                    <p>Genießen Sie ein unterhaltsames Videospiel für Ihre Freizeit, perfekt, um Ihre freie Zeit mit Spaß und Unterhaltung zu füllen.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Weather-App.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Wetter-App</h4>
+                    <p>Bleiben Sie trocken und vorbereitet mit unserem praktischen Wetterdienst, der es Ihnen ermöglicht, die Vorhersage zu überprüfen, bevor Sie sich den Elementen stellen.</p>
+                    <a href=""><i class='bx bx-link-external'></i></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Kontakt-Bereich Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Kontaktieren Sie <span>mich!</span></h2>
+
+        <form action="https://formsubmit.co/tucosmanca@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://githubtuco.github.io/thanks.html">
+            <div class="input-box">
+                <input name="Name" type="text" placeholder="Vollständiger Name" required>
+                <input name="Email" type="email" placeholder="E-Mail-Adresse" required>
+            </div>
+            <div class="input-box">
+                <input name="Number" type="number" placeholder="Mobilnummer (Optional)">
+                <input name="Subject" type="text" placeholder="E-Mail-Betreff" required>
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Ihre Nachricht" required></textarea>
+            <input name="Input" type="submit" value="Nachricht senden" class="btn">
+        </form>
+    </section>
+
+    <!--Footer-Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Urheberrecht &copy; 2023 von Serkan | Alle Rechte vorbehalten.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- benutzerdefiniertes JS -->
+    <script src="script_de.js"></script>
+</body>
+</html>
